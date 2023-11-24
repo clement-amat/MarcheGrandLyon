@@ -1,0 +1,3366 @@
+{
+  "fields": [
+    "identifiant",
+    "adresse",
+    "insee",
+    "commune",
+    "type",
+    "jourtenue",
+    "horaires",
+    "gid",
+    "lon",
+    "lat"
+  ],
+  "layer_name": "eco_economie.ecomarcheinstance_latest",
+  "nb_results": 239,
+  "table_alias": null,
+  "table_href": "https://data.grandlyon.com/fr/datapusher/ws/grandlyon/eco_economie.ecomarcheinstance_latest.json",
+  "values": [
+    {
+      "adresse": "Place du Jayon",
+      "commune": "Grigny",
+      "gid": 45,
+      "horaires": [
+        "Tu 07:30-12:30"
+      ],
+      "identifiant": 45,
+      "insee": "69096",
+      "jourtenue": "Mardi",
+      "lat": 45.6080841,
+      "lon": 4.7911378,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place de l'Europe",
+      "commune": "Irigny",
+      "gid": 46,
+      "horaires": [
+        "Sa 08:00-12:00"
+      ],
+      "identifiant": 46,
+      "insee": "69100",
+      "jourtenue": "Samedi",
+      "lat": 45.6724498,
+      "lon": 4.8227235,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de l'Europe",
+      "commune": "Irigny",
+      "gid": 47,
+      "horaires": [
+        "We 08:00-12:00"
+      ],
+      "identifiant": 47,
+      "insee": "69100",
+      "jourtenue": "Mercredi",
+      "lat": 45.6724498,
+      "lon": 4.8227235,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du Griffon",
+      "commune": "Limonest",
+      "gid": 48,
+      "horaires": [
+        "Sa 08:00-12:00"
+      ],
+      "identifiant": 48,
+      "insee": "69116",
+      "jourtenue": "Samedi",
+      "lat": 45.837378,
+      "lon": 4.7713953,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Halle de la place Fleury Lancelin",
+      "commune": "Marcy-l'\u00c9toile",
+      "gid": 49,
+      "horaires": [
+        "We 16:00-19:00"
+      ],
+      "identifiant": 49,
+      "insee": "69127",
+      "jourtenue": "Mercredi",
+      "lat": 45.781562,
+      "lon": 4.705382,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de Verdun",
+      "commune": "Albigny-sur-Sa\u00f4ne",
+      "gid": 1,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 1,
+      "insee": "69003",
+      "jourtenue": "Samedi",
+      "lat": 45.865739,
+      "lon": 4.831349,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Baptiste Curial",
+      "commune": "Bron",
+      "gid": 2,
+      "horaires": [
+        "We 08:00-12:00"
+      ],
+      "identifiant": 2,
+      "insee": "69029",
+      "jourtenue": "Mercredi",
+      "lat": 45.7373151,
+      "lon": 4.9166104,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Baptiste Curial",
+      "commune": "Bron",
+      "gid": 3,
+      "horaires": [
+        "Su 08:00-12:00"
+      ],
+      "identifiant": 3,
+      "insee": "69029",
+      "jourtenue": "Dimanche",
+      "lat": 45.7373151,
+      "lon": 4.9166104,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Jean-Moulin",
+      "commune": "Bron",
+      "gid": 4,
+      "horaires": [
+        "Sa 08:00-12:00"
+      ],
+      "identifiant": 4,
+      "insee": "69029",
+      "jourtenue": "Samedi",
+      "lat": 45.7426906,
+      "lon": 4.9192405,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Jean-Moulin",
+      "commune": "Bron",
+      "gid": 5,
+      "horaires": [
+        "Tu 08:00-12:00"
+      ],
+      "identifiant": 5,
+      "insee": "69029",
+      "jourtenue": "Mardi",
+      "lat": 45.7426906,
+      "lon": 4.9192405,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Libert\u00e9",
+      "commune": "Bron",
+      "gid": 6,
+      "horaires": [
+        "Fr 08:00-12:00"
+      ],
+      "identifiant": 6,
+      "insee": "69029",
+      "jourtenue": "Vendredi",
+      "lat": 45.734963,
+      "lon": 4.910526,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Libert\u00e9",
+      "commune": "Bron",
+      "gid": 7,
+      "horaires": [
+        "Mo 08:00-12:00"
+      ],
+      "identifiant": 7,
+      "insee": "69029",
+      "jourtenue": "Lundi",
+      "lat": 45.734963,
+      "lon": 4.910526,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Square Laurent-Bonnevay",
+      "commune": "Bron",
+      "gid": 8,
+      "horaires": [
+        "Su 08:00-12:30"
+      ],
+      "identifiant": 8,
+      "insee": "69029",
+      "jourtenue": "Dimanche",
+      "lat": 45.7307865,
+      "lon": 4.9007991,
+      "type": "mixte"
+    },
+    {
+      "adresse": "rue Louis Ailloud",
+      "commune": "Bron",
+      "gid": 9,
+      "horaires": [
+        "We 16:00-19:30"
+      ],
+      "identifiant": 9,
+      "insee": "69029",
+      "jourtenue": "Mercredi",
+      "lat": 45.733623,
+      "lon": 4.9097717,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du 8 mai 1945",
+      "commune": "Cailloux-sur-Fontaines",
+      "gid": 10,
+      "horaires": [
+        "Sa 08:00-12:30"
+      ],
+      "identifiant": 10,
+      "insee": "69033",
+      "jourtenue": "Samedi",
+      "lat": 45.852455,
+      "lon": 4.8723938,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "All\u00e9e de la Jeunesse",
+      "commune": "Caluire-et-Cuire",
+      "gid": 11,
+      "horaires": [
+        "Th 07:30-12:30"
+      ],
+      "identifiant": 11,
+      "insee": "69034",
+      "jourtenue": "Jeudi",
+      "lat": 45.790577,
+      "lon": 4.846467,
+      "type": "mixte"
+    },
+    {
+      "adresse": "All\u00e9e de la Jeunesse",
+      "commune": "Caluire-et-Cuire",
+      "gid": 12,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 12,
+      "insee": "69034",
+      "jourtenue": "Samedi",
+      "lat": 45.790577,
+      "lon": 4.846467,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Avenue Pierre Terrasse",
+      "commune": "Caluire-et-Cuire",
+      "gid": 13,
+      "horaires": [
+        "Tu 16:00-20:00"
+      ],
+      "identifiant": 13,
+      "insee": "69034",
+      "jourtenue": "Mardi",
+      "lat": 45.7982276,
+      "lon": 4.8506505,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place de la Rochette",
+      "commune": "Caluire-et-Cuire",
+      "gid": 14,
+      "horaires": [
+        "Th 16:00-20:00"
+      ],
+      "identifiant": 14,
+      "insee": "69034",
+      "jourtenue": "Jeudi",
+      "lat": 45.7915707,
+      "lon": 4.8235423,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place des Moulins du Rh\u00f4ne",
+      "commune": "Caluire-et-Cuire",
+      "gid": 15,
+      "horaires": [
+        "Tu 07:30-12:30"
+      ],
+      "identifiant": 15,
+      "insee": "69034",
+      "jourtenue": "Mardi",
+      "lat": 45.789063,
+      "lon": 4.8551698,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du Vernay",
+      "commune": "Caluire-et-Cuire",
+      "gid": 16,
+      "horaires": [
+        "Fr 16:00-20:00"
+      ],
+      "identifiant": 16,
+      "insee": "69034",
+      "jourtenue": "Vendredi",
+      "lat": 45.8085767,
+      "lon": 4.8567173,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place de la Libert\u00e9",
+      "commune": "Champagne-au-Mont-d'Or",
+      "gid": 17,
+      "horaires": [
+        "We 15:30-19:30"
+      ],
+      "identifiant": 17,
+      "insee": "69040",
+      "jourtenue": "Mercredi",
+      "lat": 45.794952,
+      "lon": 4.7923917,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Avenue Lamartine",
+      "commune": "Charbonni\u00e8res-les-Bains",
+      "gid": 18,
+      "horaires": [
+        "Th 08:00-12:00"
+      ],
+      "identifiant": 18,
+      "insee": "69044",
+      "jourtenue": "Jeudi",
+      "lat": 45.778856,
+      "lon": 4.741704,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Mairie",
+      "commune": "Charly",
+      "gid": 19,
+      "horaires": [
+        "Th 07:00-13:00"
+      ],
+      "identifiant": 19,
+      "insee": "69046",
+      "jourtenue": "Jeudi",
+      "lat": 45.6494135,
+      "lon": 4.7943938,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place de la Mairie",
+      "commune": "Charly",
+      "gid": 20,
+      "horaires": [
+        "Su 07:00-13:00"
+      ],
+      "identifiant": 20,
+      "insee": "69046",
+      "jourtenue": "Dimanche",
+      "lat": 45.6494135,
+      "lon": 4.7943938,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue C\u00e9sar-Paulet",
+      "commune": "Collonges-au-Mont-d'Or",
+      "gid": 21,
+      "horaires": [
+        "Th 07:00-12:30"
+      ],
+      "identifiant": 21,
+      "insee": "69063",
+      "jourtenue": "Jeudi",
+      "lat": 45.8184799,
+      "lon": 4.8416972,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue de la Plage",
+      "commune": "Collonges-au-Mont-d'Or",
+      "gid": 22,
+      "horaires": [
+        "Fr 16:00-19:00"
+      ],
+      "identifiant": 22,
+      "insee": "69063",
+      "jourtenue": "Vendredi",
+      "lat": 45.8171038,
+      "lon": 4.8510562,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place de la Libert\u00e9",
+      "commune": "Couzon-au-Mont-d'Or",
+      "gid": 23,
+      "horaires": [
+        "Su 08:30-12:00"
+      ],
+      "identifiant": 23,
+      "insee": "69068",
+      "jourtenue": "Dimanche",
+      "lat": 45.84594345,
+      "lon": 4.8317914,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Andr\u00e9e-Marie-Perrin",
+      "commune": "Craponne",
+      "gid": 24,
+      "horaires": [
+        "Sa 07:00-12:15"
+      ],
+      "identifiant": 24,
+      "insee": "69069",
+      "jourtenue": "Samedi",
+      "lat": 45.7464518,
+      "lon": 4.7243936,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Andr\u00e9e-Marie-Perrin",
+      "commune": "Craponne",
+      "gid": 25,
+      "horaires": [
+        "We 07:00-12:15"
+      ],
+      "identifiant": 25,
+      "insee": "69069",
+      "jourtenue": "Mercredi",
+      "lat": 45.7464518,
+      "lon": 4.7243936,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Chemin de Pierre Blanche",
+      "commune": "Dardilly",
+      "gid": 26,
+      "horaires": [
+        "Fr 15:30-19:00"
+      ],
+      "identifiant": 26,
+      "insee": "69072",
+      "jourtenue": "Vendredi",
+      "lat": 45.8202262,
+      "lon": 4.750418,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place de la Lib\u00e9ration",
+      "commune": "\u00c9cully",
+      "gid": 27,
+      "horaires": [
+        "Tu 15:30-18:30"
+      ],
+      "identifiant": 27,
+      "insee": "69081",
+      "jourtenue": "Mardi",
+      "lat": 45.7761406,
+      "lon": 4.7782046,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du March\u00e9",
+      "commune": "\u00c9cully",
+      "gid": 28,
+      "horaires": [
+        "Sa 07:30-14:00"
+      ],
+      "identifiant": 28,
+      "insee": "69081",
+      "jourtenue": "Samedi",
+      "lat": 45.7741612,
+      "lon": 4.7814906,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du March\u00e9",
+      "commune": "\u00c9cully",
+      "gid": 29,
+      "horaires": [
+        "Th 07:30-13:00"
+      ],
+      "identifiant": 29,
+      "insee": "69081",
+      "jourtenue": "Jeudi",
+      "lat": 45.7741612,
+      "lon": 4.7814906,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Mairie",
+      "commune": "Fleurieu-sur-Sa\u00f4ne",
+      "gid": 30,
+      "horaires": [
+        "We 16:00-19:30"
+      ],
+      "identifiant": 30,
+      "insee": "69085",
+      "jourtenue": "Mercredi",
+      "lat": 45.8627815,
+      "lon": 4.84532308,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "All\u00e9e de la Chardonni\u00e8re",
+      "commune": "Fontaines-sur-Sa\u00f4ne",
+      "gid": 31,
+      "horaires": [
+        "Th 07:00-12:30"
+      ],
+      "identifiant": 31,
+      "insee": "69088",
+      "jourtenue": "Jeudi",
+      "lat": 45.8217894,
+      "lon": 4.8629903,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Carnot",
+      "commune": "Fontaines-sur-Sa\u00f4ne",
+      "gid": 32,
+      "horaires": [
+        "We 07:00-12:30"
+      ],
+      "identifiant": 32,
+      "insee": "69088",
+      "jourtenue": "Mercredi",
+      "lat": 45.832891,
+      "lon": 4.848937,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Loano",
+      "commune": "Francheville",
+      "gid": 33,
+      "horaires": [
+        "Fr 15:00-19:00"
+      ],
+      "identifiant": 33,
+      "insee": "69089",
+      "jourtenue": "Vendredi",
+      "lat": 45.7463275,
+      "lon": 4.7585738,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place de l'Europe",
+      "commune": "Francheville",
+      "gid": 34,
+      "horaires": [
+        "Fr 07:30-12:30"
+      ],
+      "identifiant": 34,
+      "insee": "69089",
+      "jourtenue": "Vendredi",
+      "lat": 45.7386407,
+      "lon": 4.7739293,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Mairie",
+      "commune": "Francheville",
+      "gid": 35,
+      "horaires": [
+        "We 07:30-12:30"
+      ],
+      "identifiant": 35,
+      "insee": "69089",
+      "jourtenue": "Mercredi",
+      "lat": 45.7371063,
+      "lon": 4.7652759,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du Ch\u00e2ter",
+      "commune": "Francheville",
+      "gid": 36,
+      "horaires": [
+        "Tu 07:30-12:30"
+      ],
+      "identifiant": 36,
+      "insee": "69089",
+      "jourtenue": "Mardi",
+      "lat": 45.7380037,
+      "lon": 4.771125,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Avenue du Mar\u00e9chal Leclerc",
+      "commune": "Givors",
+      "gid": 37,
+      "horaires": [
+        "Tu 07:00-12:00"
+      ],
+      "identifiant": 37,
+      "insee": "69091",
+      "jourtenue": "Mardi",
+      "lat": 45.5886802,
+      "lon": 4.77327299,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Jean-Jaur\u00e8s",
+      "commune": "Givors",
+      "gid": 38,
+      "horaires": [
+        "We 06:00-12:30"
+      ],
+      "identifiant": 38,
+      "insee": "69091",
+      "jourtenue": "Mercredi",
+      "lat": 45.5830947,
+      "lon": 4.7748417,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Jean-Jaur\u00e8s",
+      "commune": "Givors",
+      "gid": 39,
+      "horaires": [
+        "Fr 06:00-12:30"
+      ],
+      "identifiant": 39,
+      "insee": "69091",
+      "jourtenue": "Vendredi",
+      "lat": 45.5830947,
+      "lon": 4.7748417,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Jean-Jaur\u00e8s",
+      "commune": "Givors",
+      "gid": 40,
+      "horaires": [
+        "Su 06:00-12:30"
+      ],
+      "identifiant": 40,
+      "insee": "69091",
+      "jourtenue": "Dimanche",
+      "lat": 45.5830947,
+      "lon": 4.7748417,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du G\u00e9n\u00e9ral de Gaulle",
+      "commune": "Givors",
+      "gid": 41,
+      "horaires": [
+        "Sa 14:00-18:00"
+      ],
+      "identifiant": 41,
+      "insee": "69091",
+      "jourtenue": "Samedi",
+      "lat": 45.604692,
+      "lon": 4.763369,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du G\u00e9n\u00e9ral de Gaulle",
+      "commune": "Givors",
+      "gid": 42,
+      "horaires": [
+        "Th 07:30-12:30"
+      ],
+      "identifiant": 42,
+      "insee": "69091",
+      "jourtenue": "Jeudi",
+      "lat": 45.604692,
+      "lon": 4.763369,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Jean-Jaur\u00e8s",
+      "commune": "Grigny",
+      "gid": 43,
+      "horaires": [
+        "Su 07:30-12:30"
+      ],
+      "identifiant": 43,
+      "insee": "69096",
+      "jourtenue": "Dimanche",
+      "lat": 45.6089302,
+      "lon": 4.7923647,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Jean-Jaur\u00e8s",
+      "commune": "Grigny",
+      "gid": 44,
+      "horaires": [
+        "Th 07:30-12:30"
+      ],
+      "identifiant": 44,
+      "insee": "69096",
+      "jourtenue": "Jeudi",
+      "lat": 45.6089302,
+      "lon": 4.7923647,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Halle de la place Fleury Lancelin",
+      "commune": "Marcy-l'\u00c9toile",
+      "gid": 50,
+      "horaires": [
+        "Su 07:00-12:00"
+      ],
+      "identifiant": 50,
+      "insee": "69127",
+      "jourtenue": "Dimanche",
+      "lat": 45.781562,
+      "lon": 4.705382,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Jean-Moulin",
+      "commune": "La Mulati\u00e8re",
+      "gid": 51,
+      "horaires": [
+        "Tu 07:00-12:30"
+      ],
+      "identifiant": 51,
+      "insee": "69142",
+      "jourtenue": "Mardi",
+      "lat": 45.7282829,
+      "lon": 4.8090949,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Jean-Moulin",
+      "commune": "La Mulati\u00e8re",
+      "gid": 52,
+      "horaires": [
+        "Fr 07:00-12:30"
+      ],
+      "identifiant": 52,
+      "insee": "69142",
+      "jourtenue": "Vendredi",
+      "lat": 45.7282829,
+      "lon": 4.8090949,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du March\u00e9",
+      "commune": "Neuville-sur-Sa\u00f4ne",
+      "gid": 53,
+      "horaires": [
+        "Fr 08:00-13:00"
+      ],
+      "identifiant": 53,
+      "insee": "69143",
+      "jourtenue": "Vendredi",
+      "lat": 45.876675,
+      "lon": 4.838164,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Parking de l'h\u00f4tel de ville",
+      "commune": "Oullins",
+      "gid": 54,
+      "horaires": [
+        "Tu 07:30-12:00"
+      ],
+      "identifiant": 54,
+      "insee": "69149",
+      "jourtenue": "Mardi",
+      "lat": 45.714191,
+      "lon": 4.806885,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Parking de l'h\u00f4tel de ville",
+      "commune": "Oullins",
+      "gid": 55,
+      "horaires": [
+        "Th 07:30-12:00"
+      ],
+      "identifiant": 55,
+      "insee": "69149",
+      "jourtenue": "Jeudi",
+      "lat": 45.714191,
+      "lon": 4.806885,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Rue de la Bussi\u00e8re",
+      "commune": "Oullins",
+      "gid": 56,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 56,
+      "insee": "69149",
+      "jourtenue": "Samedi",
+      "lat": 45.719203,
+      "lon": 4.801166,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Jean-Jaur\u00e8s",
+      "commune": "Pierre-B\u00e9nite",
+      "gid": 57,
+      "horaires": [
+        "Fr 16:00-19:00"
+      ],
+      "identifiant": 57,
+      "insee": "69152",
+      "jourtenue": "Vendredi",
+      "lat": 45.703681,
+      "lon": 4.823279,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place de la Paix",
+      "commune": "Pierre-B\u00e9nite",
+      "gid": 58,
+      "horaires": [
+        "Su 07:30-13:00"
+      ],
+      "identifiant": 58,
+      "insee": "69152",
+      "jourtenue": "Dimanche",
+      "lat": 45.703848,
+      "lon": 4.825702,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Paix",
+      "commune": "Pierre-B\u00e9nite",
+      "gid": 59,
+      "horaires": [
+        "We 07:30-13:00"
+      ],
+      "identifiant": 59,
+      "insee": "69152",
+      "jourtenue": "Mercredi",
+      "lat": 45.703848,
+      "lon": 4.825702,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Square Pierre-Dupont",
+      "commune": "Rochetaill\u00e9e-sur-Sa\u00f4ne",
+      "gid": 60,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 60,
+      "insee": "69168",
+      "jourtenue": "Samedi",
+      "lat": 45.846491,
+      "lon": 4.835813,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place de la R\u00e9publique",
+      "commune": "Saint-Cyr-au-Mont-d'Or",
+      "gid": 61,
+      "horaires": [
+        "Sa 07:30-13:00"
+      ],
+      "identifiant": 61,
+      "insee": "69191",
+      "jourtenue": "Samedi",
+      "lat": 45.814471,
+      "lon": 4.818654,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Louis-Pradel",
+      "commune": "Saint-Didier-au-Mont-d'Or",
+      "gid": 62,
+      "horaires": [
+        "We 07:00-12:30"
+      ],
+      "identifiant": 62,
+      "insee": "69194",
+      "jourtenue": "Mercredi",
+      "lat": 45.81008,
+      "lon": 4.798373,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Durel",
+      "commune": "Saint-Fons",
+      "gid": 63,
+      "horaires": [
+        "Tu 06:00-12:30"
+      ],
+      "identifiant": 63,
+      "insee": "69199",
+      "jourtenue": "Mardi",
+      "lat": 45.707041,
+      "lon": 4.856818,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Durel",
+      "commune": "Saint-Fons",
+      "gid": 64,
+      "horaires": [
+        "Sa 06:00-12:30"
+      ],
+      "identifiant": 64,
+      "insee": "69199",
+      "jourtenue": "Samedi",
+      "lat": 45.707041,
+      "lon": 4.856818,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Esplanade Limburg",
+      "commune": "Sainte-Foy-l\u00e8s-Lyon",
+      "gid": 65,
+      "horaires": [
+        "Fr 16:00-19:00"
+      ],
+      "identifiant": 65,
+      "insee": "69202",
+      "jourtenue": "Vendredi",
+      "lat": 45.734068,
+      "lon": 4.779682,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Fran\u00e7ois-Millou",
+      "commune": "Sainte-Foy-l\u00e8s-Lyon",
+      "gid": 66,
+      "horaires": [
+        "We 07:00-13:00"
+      ],
+      "identifiant": 66,
+      "insee": "69202",
+      "jourtenue": "Mercredi",
+      "lat": 45.735396,
+      "lon": 4.804139,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Soubeirat",
+      "commune": "Sainte-Foy-l\u00e8s-Lyon",
+      "gid": 67,
+      "horaires": [
+        "Sa 07:00-13:00"
+      ],
+      "identifiant": 67,
+      "insee": "69202",
+      "jourtenue": "Samedi",
+      "lat": 45.747589,
+      "lon": 4.800522,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Soubeirat",
+      "commune": "Sainte-Foy-l\u00e8s-Lyon",
+      "gid": 68,
+      "horaires": [
+        "Tu 07:00-13:00"
+      ],
+      "identifiant": 68,
+      "insee": "69202",
+      "jourtenue": "Mardi",
+      "lat": 45.747589,
+      "lon": 4.800522,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Jaboulay",
+      "commune": "Saint-Genis-Laval",
+      "gid": 69,
+      "horaires": [
+        "Fr 08:00-12:30"
+      ],
+      "identifiant": 69,
+      "insee": "69204",
+      "jourtenue": "Vendredi",
+      "lat": 45.695171,
+      "lon": 4.792664,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Jaboulay",
+      "commune": "Saint-Genis-Laval",
+      "gid": 70,
+      "horaires": [
+        "We 08:00-12:30"
+      ],
+      "identifiant": 70,
+      "insee": "69204",
+      "jourtenue": "Mercredi",
+      "lat": 45.695171,
+      "lon": 4.792664,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place des Collonges",
+      "commune": "Saint-Genis-Laval",
+      "gid": 71,
+      "horaires": [
+        "Tu 08:00-12:30"
+      ],
+      "identifiant": 71,
+      "insee": "69204",
+      "jourtenue": "Mardi",
+      "lat": 45.693229,
+      "lon": 4.805349,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Charles de Gaulle",
+      "commune": "Saint-Genis-les-Olli\u00e8res",
+      "gid": 72,
+      "horaires": [
+        "Su 07:00-13:00"
+      ],
+      "identifiant": 72,
+      "insee": "69205",
+      "jourtenue": "Dimanche",
+      "lat": 45.756335,
+      "lon": 4.724736,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Charles de Gaulle",
+      "commune": "Saint-Genis-les-Olli\u00e8res",
+      "gid": 73,
+      "horaires": [
+        "Th 07:00-13:00"
+      ],
+      "identifiant": 73,
+      "insee": "69205",
+      "jourtenue": "Jeudi",
+      "lat": 45.756335,
+      "lon": 4.724736,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Esplanade de la Mendillone",
+      "commune": "Saint-Germain-au-Mont-d'Or",
+      "gid": 74,
+      "horaires": [
+        "Fr 16:00-20:00"
+      ],
+      "identifiant": 74,
+      "insee": "69207",
+      "jourtenue": "Vendredi",
+      "lat": 45.883594,
+      "lon": 4.803892,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Mairie",
+      "commune": "Saint-Germain-au-Mont-d'Or",
+      "gid": 75,
+      "horaires": [
+        "Mo 16:00-19:00"
+      ],
+      "identifiant": 75,
+      "insee": "69207",
+      "jourtenue": "Lundi",
+      "lat": 45.883613,
+      "lon": 4.802717,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue du Lavoir",
+      "commune": "Saint-Romain-au-Mont-d'Or",
+      "gid": 76,
+      "horaires": [
+        "Su 08:30-13:30"
+      ],
+      "identifiant": 76,
+      "insee": "69233",
+      "jourtenue": "Dimanche",
+      "lat": 45.837871,
+      "lon": 4.82526,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de Tassin",
+      "commune": "Tassin-la-Demi-Lune",
+      "gid": 77,
+      "horaires": [
+        "We 07:30-12:30"
+      ],
+      "identifiant": 77,
+      "insee": "69244",
+      "jourtenue": "Mercredi",
+      "lat": 45.760859,
+      "lon": 4.758321,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Promenade des Tuileries",
+      "commune": "Tassin-la-Demi-Lune",
+      "gid": 78,
+      "horaires": [
+        "Fr 07:30-12:30"
+      ],
+      "identifiant": 78,
+      "insee": "69244",
+      "jourtenue": "Vendredi",
+      "lat": 45.763087,
+      "lon": 4.778617,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Quartier Ala\u00ef",
+      "commune": "Tassin-la-Demi-Lune",
+      "gid": 79,
+      "horaires": [
+        "Tu 15:30-19:00"
+      ],
+      "identifiant": 79,
+      "insee": "69244",
+      "jourtenue": "Mardi",
+      "lat": 45.75215,
+      "lon": 4.76758,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place de la Halle",
+      "commune": "La Tour-de-Salvagny",
+      "gid": 80,
+      "horaires": [
+        "Th 07:30-13:00"
+      ],
+      "identifiant": 80,
+      "insee": "69250",
+      "jourtenue": "Jeudi",
+      "lat": 45.8146018,
+      "lon": 4.71686744,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Halle",
+      "commune": "La Tour-de-Salvagny",
+      "gid": 81,
+      "horaires": [
+        "Su 07:30-13:00"
+      ],
+      "identifiant": 81,
+      "insee": "69250",
+      "jourtenue": "Dimanche",
+      "lat": 45.8146018,
+      "lon": 4.71686744,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Camelino",
+      "commune": "Vaulx-en-Velin",
+      "gid": 82,
+      "horaires": [
+        "Th 07:00-12:30"
+      ],
+      "identifiant": 82,
+      "insee": "69256",
+      "jourtenue": "Jeudi",
+      "lat": 45.777933,
+      "lon": 4.925708,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Fran\u00e7ois-Mauriac",
+      "commune": "Vaulx-en-Velin",
+      "gid": 83,
+      "horaires": [
+        "We 07:00-12:30"
+      ],
+      "identifiant": 83,
+      "insee": "69256",
+      "jourtenue": "Mercredi",
+      "lat": 45.785396,
+      "lon": 4.911526,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Fran\u00e7ois-Mauriac",
+      "commune": "Vaulx-en-Velin",
+      "gid": 84,
+      "horaires": [
+        "Sa 07:00-12:30"
+      ],
+      "identifiant": 84,
+      "insee": "69256",
+      "jourtenue": "Samedi",
+      "lat": 45.785396,
+      "lon": 4.911526,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Gilbert-Boissier",
+      "commune": "Vaulx-en-Velin",
+      "gid": 85,
+      "horaires": [
+        "Su 07:00-12:30"
+      ],
+      "identifiant": 85,
+      "insee": "69256",
+      "jourtenue": "Dimanche",
+      "lat": 45.786487,
+      "lon": 4.926557,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Gilbert-Boissier",
+      "commune": "Vaulx-en-Velin",
+      "gid": 86,
+      "horaires": [
+        "Tu 07:00-12:30"
+      ],
+      "identifiant": 86,
+      "insee": "69256",
+      "jourtenue": "Mardi",
+      "lat": 45.786487,
+      "lon": 4.926557,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Avenue Jacques-Duclos",
+      "commune": "V\u00e9nissieux",
+      "gid": 87,
+      "horaires": [
+        "Fr 07:30-12:30"
+      ],
+      "identifiant": 87,
+      "insee": "69259",
+      "jourtenue": "Vendredi",
+      "lat": 45.69764,
+      "lon": 4.891434,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Ennemond-Romand",
+      "commune": "V\u00e9nissieux",
+      "gid": 88,
+      "horaires": [
+        "Tu 15:00-19:00"
+      ],
+      "identifiant": 88,
+      "insee": "69259",
+      "jourtenue": "Mardi",
+      "lat": 45.725645,
+      "lon": 4.859584,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Jules-Grandcl\u00e9ment",
+      "commune": "V\u00e9nissieux",
+      "gid": 89,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 89,
+      "insee": "69259",
+      "jourtenue": "Samedi",
+      "lat": 45.719304,
+      "lon": 4.888036,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place L\u00e9on Sublet",
+      "commune": "V\u00e9nissieux",
+      "gid": 90,
+      "horaires": [
+        "We 07:30-12:30"
+      ],
+      "identifiant": 90,
+      "insee": "69259",
+      "jourtenue": "Mercredi",
+      "lat": 45.699798,
+      "lon": 4.883205,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place L\u00e9on Sublet",
+      "commune": "V\u00e9nissieux",
+      "gid": 91,
+      "horaires": [
+        "Su 07:30-12:30"
+      ],
+      "identifiant": 91,
+      "insee": "69259",
+      "jourtenue": "Dimanche",
+      "lat": 45.699798,
+      "lon": 4.883205,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Rue Georges-Lyvet",
+      "commune": "V\u00e9nissieux",
+      "gid": 92,
+      "horaires": [
+        "Th 07:30-12:30"
+      ],
+      "identifiant": 92,
+      "insee": "69259",
+      "jourtenue": "Jeudi",
+      "lat": 45.697841,
+      "lon": 4.871753,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Rue Georges-Lyvet",
+      "commune": "V\u00e9nissieux",
+      "gid": 93,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 93,
+      "insee": "69259",
+      "jourtenue": "Samedi",
+      "lat": 45.697841,
+      "lon": 4.871753,
+      "type": "mixte"
+    },
+    {
+      "adresse": "24 place du 11-Novembre-1918-et-du-8-Mai-1945",
+      "commune": "Vernaison",
+      "gid": 94,
+      "horaires": [
+        "Sa 07:30-13:00"
+      ],
+      "identifiant": 94,
+      "insee": "69260",
+      "jourtenue": "Samedi",
+      "lat": 45.647342,
+      "lon": 4.812084,
+      "type": "mixte"
+    },
+    {
+      "adresse": "24 place du 11-Novembre-1918-et-du-8-Mai-1945",
+      "commune": "Vernaison",
+      "gid": 95,
+      "horaires": [
+        "We 07:30-13:00"
+      ],
+      "identifiant": 95,
+      "insee": "69260",
+      "jourtenue": "Mercredi",
+      "lat": 45.647342,
+      "lon": 4.812084,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Avenue Roberto-Rossellini",
+      "commune": "Villeurbanne",
+      "gid": 96,
+      "horaires": [
+        "Mo 15:00-19:00"
+      ],
+      "identifiant": 96,
+      "insee": "69266",
+      "jourtenue": "Lundi",
+      "lat": 45.777778,
+      "lon": 4.862378,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Avenue Saint-Exup\u00e9ry",
+      "commune": "Villeurbanne",
+      "gid": 97,
+      "horaires": [
+        "We 07:30-12:30"
+      ],
+      "identifiant": 97,
+      "insee": "69266",
+      "jourtenue": "Mercredi",
+      "lat": 45.758843,
+      "lon": 4.879246,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Avenue Saint-Exup\u00e9ry",
+      "commune": "Villeurbanne",
+      "gid": 98,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 98,
+      "insee": "69266",
+      "jourtenue": "Samedi",
+      "lat": 45.758843,
+      "lon": 4.879246,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Esplanade Miriam Makeba",
+      "commune": "Villeurbanne",
+      "gid": 99,
+      "horaires": [
+        "Th 15:00-19:00"
+      ],
+      "identifiant": 99,
+      "insee": "69266",
+      "jourtenue": "Jeudi",
+      "lat": 45.761003,
+      "lon": 4.920041,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Chanoine Boursier",
+      "commune": "Villeurbanne",
+      "gid": 100,
+      "horaires": [
+        "Th 07:30-12:30"
+      ],
+      "identifiant": 100,
+      "insee": "69266",
+      "jourtenue": "Jeudi",
+      "lat": 45.768955,
+      "lon": 4.878476,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Chanoine Boursier",
+      "commune": "Villeurbanne",
+      "gid": 101,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 101,
+      "insee": "69266",
+      "jourtenue": "Samedi",
+      "lat": 45.768955,
+      "lon": 4.878476,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Chanoine Boursier",
+      "commune": "Villeurbanne",
+      "gid": 102,
+      "horaires": [
+        "Tu 07:30-12:30"
+      ],
+      "identifiant": 102,
+      "insee": "69266",
+      "jourtenue": "Mardi",
+      "lat": 45.768955,
+      "lon": 4.878476,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Croix-Luizet",
+      "commune": "Villeurbanne",
+      "gid": 103,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 103,
+      "insee": "69266",
+      "jourtenue": "Samedi",
+      "lat": 45.78098,
+      "lon": 4.882686,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Croix-Luizet",
+      "commune": "Villeurbanne",
+      "gid": 104,
+      "horaires": [
+        "Th 07:30-12:30"
+      ],
+      "identifiant": 104,
+      "insee": "69266",
+      "jourtenue": "Jeudi",
+      "lat": 45.78098,
+      "lon": 4.882686,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Victor-Balland",
+      "commune": "Villeurbanne",
+      "gid": 108,
+      "horaires": [
+        "We 07:30-12:30"
+      ],
+      "identifiant": 108,
+      "insee": "69266",
+      "jourtenue": "Mercredi",
+      "lat": 45.766407,
+      "lon": 4.900079,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Victor-Balland",
+      "commune": "Villeurbanne",
+      "gid": 109,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 109,
+      "insee": "69266",
+      "jourtenue": "Samedi",
+      "lat": 45.766407,
+      "lon": 4.900079,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Wilson ",
+      "commune": "Villeurbanne",
+      "gid": 110,
+      "horaires": [
+        "We 07:30-12:30"
+      ],
+      "identifiant": 110,
+      "insee": "69266",
+      "jourtenue": "Mercredi",
+      "lat": 45.774033,
+      "lon": 4.867874,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Wilson ",
+      "commune": "Villeurbanne",
+      "gid": 111,
+      "horaires": [
+        "Fr 07:30-12:30"
+      ],
+      "identifiant": 111,
+      "insee": "69266",
+      "jourtenue": "Vendredi",
+      "lat": 45.774033,
+      "lon": 4.867874,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Wilson ",
+      "commune": "Villeurbanne",
+      "gid": 112,
+      "horaires": [
+        "Su 07:30-12:30"
+      ],
+      "identifiant": 112,
+      "insee": "69266",
+      "jourtenue": "Dimanche",
+      "lat": 45.774033,
+      "lon": 4.867874,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Paix",
+      "commune": "Villeurbanne",
+      "gid": 113,
+      "horaires": [
+        "Fr 07:30-12:30"
+      ],
+      "identifiant": 113,
+      "insee": "69266",
+      "jourtenue": "Vendredi",
+      "lat": 45.751758,
+      "lon": 4.915131,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue Pierre-Joseph-Proudhon",
+      "commune": "Villeurbanne",
+      "gid": 114,
+      "horaires": [
+        "Fr 07:30-12:30"
+      ],
+      "identifiant": 114,
+      "insee": "69266",
+      "jourtenue": "Vendredi",
+      "lat": 45.774077,
+      "lon": 4.891339,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Square Pellet",
+      "commune": "Villeurbanne",
+      "gid": 115,
+      "horaires": [
+        "We 15:00-19:00"
+      ],
+      "identifiant": 115,
+      "insee": "69266",
+      "jourtenue": "Mercredi",
+      "lat": 45.7707081,
+      "lon": 4.870391,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Jean-Fleury-Coponat",
+      "commune": "Chassieu",
+      "gid": 116,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 116,
+      "insee": "69271",
+      "jourtenue": "Samedi",
+      "lat": 45.739624,
+      "lon": 4.97090148,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Jean-Fleury-Coponat",
+      "commune": "Chassieu",
+      "gid": 117,
+      "horaires": [
+        "We 08:00-13:00"
+      ],
+      "identifiant": 117,
+      "insee": "69271",
+      "jourtenue": "Mercredi",
+      "lat": 45.739624,
+      "lon": 4.97090148,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Rue Auguste Renoir",
+      "commune": "Corbas",
+      "gid": 118,
+      "horaires": [
+        "Sa 08:00-12:00"
+      ],
+      "identifiant": 118,
+      "insee": "69273",
+      "jourtenue": "Samedi",
+      "lat": 45.6664009,
+      "lon": 4.900949,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Halles D\u00e9cinoises",
+      "commune": "D\u00e9cines-Charpieu",
+      "gid": 119,
+      "horaires": [
+        "Th 15:30-19:00"
+      ],
+      "identifiant": 119,
+      "insee": "69275",
+      "jourtenue": "Jeudi",
+      "lat": 45.7675905,
+      "lon": 4.9578149,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Henri Barbusse",
+      "commune": "D\u00e9cines-Charpieu",
+      "gid": 120,
+      "horaires": [
+        "Su 07:00-12:30"
+      ],
+      "identifiant": 120,
+      "insee": "69275",
+      "jourtenue": "Dimanche",
+      "lat": 45.763033,
+      "lon": 4.9652633,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Mend\u00e8s-France",
+      "commune": "D\u00e9cines-Charpieu",
+      "gid": 121,
+      "horaires": [
+        "Sa 07:00-12:30"
+      ],
+      "identifiant": 121,
+      "insee": "69275",
+      "jourtenue": "Samedi",
+      "lat": 45.7749481,
+      "lon": 4.96641921,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Roger-Salengro",
+      "commune": "D\u00e9cines-Charpieu",
+      "gid": 122,
+      "horaires": [
+        "Tu 07:00-12:30"
+      ],
+      "identifiant": 122,
+      "insee": "69275",
+      "jourtenue": "Mardi",
+      "lat": 45.7691345,
+      "lon": 4.9569368,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Lib\u00e9ration",
+      "commune": "D\u00e9cines-Charpieu",
+      "gid": 123,
+      "horaires": [
+        "Fr 07:00-12:30"
+      ],
+      "identifiant": 123,
+      "insee": "69275",
+      "jourtenue": "Vendredi",
+      "lat": 45.7687891,
+      "lon": 4.9470363,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Claudius-Bery",
+      "commune": "Feyzin",
+      "gid": 124,
+      "horaires": [
+        "Su 08:00-12:30"
+      ],
+      "identifiant": 124,
+      "insee": "69276",
+      "jourtenue": "Dimanche",
+      "lat": 45.6660423,
+      "lon": 4.849133,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de Verdun",
+      "commune": "Genay",
+      "gid": 125,
+      "horaires": [
+        "Sa 08:00-12:30"
+      ],
+      "identifiant": 125,
+      "insee": "69278",
+      "jourtenue": "Samedi",
+      "lat": 45.8978279,
+      "lon": 4.8414492,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du G\u00e9n\u00e9ral De Gaulle",
+      "commune": "Jonage",
+      "gid": 126,
+      "horaires": [
+        "Th 07:30-12:30"
+      ],
+      "identifiant": 126,
+      "insee": "69279",
+      "jourtenue": "Jeudi",
+      "lat": 45.7962264,
+      "lon": 5.0472397,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du G\u00e9n\u00e9ral De Gaulle",
+      "commune": "Jonage",
+      "gid": 127,
+      "horaires": [
+        "Su 07:30-12:30"
+      ],
+      "identifiant": 127,
+      "insee": "69279",
+      "jourtenue": "Dimanche",
+      "lat": 45.7962264,
+      "lon": 5.0472397,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Grand Large",
+      "commune": "Meyzieu",
+      "gid": 128,
+      "horaires": [
+        "Su 07:30-12:30"
+      ],
+      "identifiant": 128,
+      "insee": "69282",
+      "jourtenue": "Dimanche",
+      "lat": 45.792315,
+      "lon": 4.99162,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Monnet",
+      "commune": "Meyzieu",
+      "gid": 129,
+      "horaires": [
+        "We 07:30-12:30"
+      ],
+      "identifiant": 129,
+      "insee": "69282",
+      "jourtenue": "Mercredi",
+      "lat": 45.766677,
+      "lon": 5.002942,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Monnet",
+      "commune": "Meyzieu",
+      "gid": 130,
+      "horaires": [
+        "Sa 07:30-12:30"
+      ],
+      "identifiant": 130,
+      "insee": "69282",
+      "jourtenue": "Samedi",
+      "lat": 45.766677,
+      "lon": 5.002942,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place des Droits de l'Homme",
+      "commune": "Meyzieu",
+      "gid": 131,
+      "horaires": [
+        "Mo 07:30-12:30"
+      ],
+      "identifiant": 131,
+      "insee": "69282",
+      "jourtenue": "Lundi",
+      "lat": 45.777943,
+      "lon": 4.994385,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du March\u00e9",
+      "commune": "Mions",
+      "gid": 132,
+      "horaires": [
+        "We 08:00-13:00"
+      ],
+      "identifiant": 132,
+      "insee": "69283",
+      "jourtenue": "Mercredi",
+      "lat": 45.665157,
+      "lon": 4.957529,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du March\u00e9",
+      "commune": "Mions",
+      "gid": 133,
+      "horaires": [
+        "Sa 08:00-13:00"
+      ],
+      "identifiant": 133,
+      "insee": "69283",
+      "jourtenue": "Samedi",
+      "lat": 45.665157,
+      "lon": 4.957529,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Poype",
+      "commune": "Montanay",
+      "gid": 134,
+      "horaires": [
+        "Su 07:30-12:30"
+      ],
+      "identifiant": 134,
+      "insee": "69284",
+      "jourtenue": "Dimanche",
+      "lat": 45.88087,
+      "lon": 4.863116,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Fran\u00e7ois-Canelass",
+      "commune": "Rillieux-la-Pape",
+      "gid": 135,
+      "horaires": [
+        "Sa 08:00-13:00"
+      ],
+      "identifiant": 135,
+      "insee": "69286",
+      "jourtenue": "Samedi",
+      "lat": 45.805714,
+      "lon": 4.885138,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Poperen",
+      "commune": "Rillieux-la-Pape",
+      "gid": 136,
+      "horaires": [
+        "Sa 08:00-13:30"
+      ],
+      "identifiant": 136,
+      "insee": "69286",
+      "jourtenue": "Samedi",
+      "lat": 45.833237,
+      "lon": 4.91037,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du Ch\u00e2teau",
+      "commune": "Rillieux-la-Pape",
+      "gid": 137,
+      "horaires": [
+        "Sa 08:00-13:00"
+      ],
+      "identifiant": 137,
+      "insee": "69286",
+      "jourtenue": "Samedi",
+      "lat": 45.825049,
+      "lon": 4.894608,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du March\u00e9",
+      "commune": "Rillieux-la-Pape",
+      "gid": 138,
+      "horaires": [
+        "Su 08:00-13:00"
+      ],
+      "identifiant": 138,
+      "insee": "69286",
+      "jourtenue": "Dimanche",
+      "lat": 45.81307,
+      "lon": 4.896524,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du March\u00e9",
+      "commune": "Rillieux-la-Pape",
+      "gid": 139,
+      "horaires": [
+        "We 08:00-13:00"
+      ],
+      "identifiant": 139,
+      "insee": "69286",
+      "jourtenue": "Mercredi",
+      "lat": 45.81307,
+      "lon": 4.896524,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du Mar\u00e9chal Juin",
+      "commune": "Rillieux-la-Pape",
+      "gid": 140,
+      "horaires": [
+        "Fr 08:00-13:30"
+      ],
+      "identifiant": 140,
+      "insee": "69286",
+      "jourtenue": "Vendredi",
+      "lat": 45.801412,
+      "lon": 4.882563,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Ferdinand-Buisson",
+      "commune": "Saint-Priest",
+      "gid": 141,
+      "horaires": [
+        "Fr 06:00-13:00"
+      ],
+      "identifiant": 141,
+      "insee": "69290",
+      "jourtenue": "Vendredi",
+      "lat": 45.696152,
+      "lon": 4.941079,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Roger-Salengro",
+      "commune": "Saint-Priest",
+      "gid": 142,
+      "horaires": [
+        "Tu 06:00-13:00"
+      ],
+      "identifiant": 142,
+      "insee": "69290",
+      "jourtenue": "Mardi",
+      "lat": 45.691078,
+      "lon": 4.937574,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Roger-Salengro",
+      "commune": "Saint-Priest",
+      "gid": 143,
+      "horaires": [
+        "Su 06:00-13:00"
+      ],
+      "identifiant": 143,
+      "insee": "69290",
+      "jourtenue": "Dimanche",
+      "lat": 45.691078,
+      "lon": 4.937574,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Spielberg",
+      "commune": "Saint-Priest",
+      "gid": 144,
+      "horaires": [
+        "Th 15:00-19:00"
+      ],
+      "identifiant": 144,
+      "insee": "69290",
+      "jourtenue": "Jeudi",
+      "lat": 45.706255,
+      "lon": 4.90124,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du Belv\u00e9d\u00e8re",
+      "commune": "Sathonay-Camp",
+      "gid": 145,
+      "horaires": [
+        "Tu 07:00-13:30"
+      ],
+      "identifiant": 145,
+      "insee": "69292",
+      "jourtenue": "Mardi",
+      "lat": 45.82386,
+      "lon": 4.873845,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du Belv\u00e9d\u00e8re",
+      "commune": "Sathonay-Camp",
+      "gid": 146,
+      "horaires": [
+        "Th 16:30-20:00"
+      ],
+      "identifiant": 146,
+      "insee": "69292",
+      "jourtenue": "Jeudi",
+      "lat": 45.82386,
+      "lon": 4.873845,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place de la Mairie",
+      "commune": "Solaize",
+      "gid": 147,
+      "horaires": [
+        "Su 08:00-12:30"
+      ],
+      "identifiant": 147,
+      "insee": "69296",
+      "jourtenue": "Dimanche",
+      "lat": 45.639432,
+      "lon": 4.840831,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Boulevard de la Croix-Rousse",
+      "commune": "Lyon 1er Arrondissement",
+      "gid": 148,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 148,
+      "insee": "69381",
+      "jourtenue": "Samedi",
+      "lat": 45.7741561,
+      "lon": 4.82899849,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Boulevard de la Croix-Rousse",
+      "commune": "Lyon 1er Arrondissement",
+      "gid": 149,
+      "horaires": [
+        "Su 06:00-13:30"
+      ],
+      "identifiant": 149,
+      "insee": "69381",
+      "jourtenue": "Dimanche",
+      "lat": 45.7741561,
+      "lon": 4.82899849,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Boulevard de la Croix-Rousse",
+      "commune": "Lyon 1er Arrondissement",
+      "gid": 150,
+      "horaires": [
+        "Fr 06:00-13:30"
+      ],
+      "identifiant": 150,
+      "insee": "69381",
+      "jourtenue": "Vendredi",
+      "lat": 45.7741561,
+      "lon": 4.82899849,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Boulevard de la Croix-Rousse",
+      "commune": "Lyon 1er Arrondissement",
+      "gid": 152,
+      "horaires": [
+        "Tu 06:00-13:30"
+      ],
+      "identifiant": 152,
+      "insee": "69381",
+      "jourtenue": "Mardi",
+      "lat": 45.7741561,
+      "lon": 4.82899849,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Boulevard de la Croix-Rousse",
+      "commune": "Lyon 1er Arrondissement",
+      "gid": 153,
+      "horaires": [
+        "We 06:00-13:00"
+      ],
+      "identifiant": 153,
+      "insee": "69381",
+      "jourtenue": "Mercredi",
+      "lat": 45.7741561,
+      "lon": 4.82899849,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Boulevard de la Croix-Rousse",
+      "commune": "Lyon 1er Arrondissement",
+      "gid": 157,
+      "horaires": [
+        "Th 06:00-13:00"
+      ],
+      "identifiant": 157,
+      "insee": "69381",
+      "jourtenue": "Jeudi",
+      "lat": 45.7741561,
+      "lon": 4.82899849,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Cours Bayard",
+      "commune": "Lyon 2e Arrondissement",
+      "gid": 158,
+      "horaires": [
+        "Su 06:00-13:00"
+      ],
+      "identifiant": 158,
+      "insee": "69382",
+      "jourtenue": "Dimanche",
+      "lat": 45.743961,
+      "lon": 4.8210422,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Cours Bayard",
+      "commune": "Lyon 2e Arrondissement",
+      "gid": 159,
+      "horaires": [
+        "Th 06:00-13:00"
+      ],
+      "identifiant": 159,
+      "insee": "69382",
+      "jourtenue": "Jeudi",
+      "lat": 45.743961,
+      "lon": 4.8210422,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Carnot",
+      "commune": "Lyon 2e Arrondissement",
+      "gid": 160,
+      "horaires": [
+        "Su 06:00-13:30"
+      ],
+      "identifiant": 160,
+      "insee": "69382",
+      "jourtenue": "Dimanche",
+      "lat": 45.7506792,
+      "lon": 4.8278008,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Carnot",
+      "commune": "Lyon 2e Arrondissement",
+      "gid": 161,
+      "horaires": [
+        "We 14:00-20:00"
+      ],
+      "identifiant": 161,
+      "insee": "69382",
+      "jourtenue": "Mercredi",
+      "lat": 45.7506792,
+      "lon": 4.8278008,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Quai Saint-Antoine",
+      "commune": "Lyon 2e Arrondissement",
+      "gid": 162,
+      "horaires": [
+        "Su 06:00-14:00"
+      ],
+      "identifiant": 162,
+      "insee": "69382",
+      "jourtenue": "Dimanche",
+      "lat": 45.762026911,
+      "lon": 4.831534223,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Quai Saint-Antoine",
+      "commune": "Lyon 2e Arrondissement",
+      "gid": 163,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 163,
+      "insee": "69382",
+      "jourtenue": "Samedi",
+      "lat": 45.762026911,
+      "lon": 4.831534223,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Quai Saint-Antoine",
+      "commune": "Lyon 2e Arrondissement",
+      "gid": 164,
+      "horaires": [
+        "Fr 06:00-13:30"
+      ],
+      "identifiant": 164,
+      "insee": "69382",
+      "jourtenue": "Vendredi",
+      "lat": 45.762026911,
+      "lon": 4.831534223,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Quai Saint-Antoine",
+      "commune": "Lyon 2e Arrondissement",
+      "gid": 165,
+      "horaires": [
+        "Th 06:00-13:00"
+      ],
+      "identifiant": 165,
+      "insee": "69382",
+      "jourtenue": "Jeudi",
+      "lat": 45.762026911,
+      "lon": 4.831534223,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Quai Saint-Antoine",
+      "commune": "Lyon 2e Arrondissement",
+      "gid": 166,
+      "horaires": [
+        "We 06:00-13:00"
+      ],
+      "identifiant": 166,
+      "insee": "69382",
+      "jourtenue": "Mercredi",
+      "lat": 45.762026911,
+      "lon": 4.831534223,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Quai Saint-Antoine",
+      "commune": "Lyon 2e Arrondissement",
+      "gid": 167,
+      "horaires": [
+        "Tu 06:00-13:00"
+      ],
+      "identifiant": 167,
+      "insee": "69382",
+      "jourtenue": "Mardi",
+      "lat": 45.762026911,
+      "lon": 4.831534223,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Guichard",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 168,
+      "horaires": [
+        "Su 06:00-13:30"
+      ],
+      "identifiant": 168,
+      "insee": "69383",
+      "jourtenue": "Dimanche",
+      "lat": 45.7592073,
+      "lon": 4.8473652,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Guichard",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 169,
+      "horaires": [
+        "Tu 06:00-13:30"
+      ],
+      "identifiant": 169,
+      "insee": "69383",
+      "jourtenue": "Mardi",
+      "lat": 45.7592073,
+      "lon": 4.8473652,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Henri",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 170,
+      "horaires": [
+        "We 07:00-12:30"
+      ],
+      "identifiant": 170,
+      "insee": "69383",
+      "jourtenue": "Mercredi",
+      "lat": 45.7482586,
+      "lon": 4.8809883,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Martyrs de la R\u00e9sistance",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 171,
+      "horaires": [
+        "Th 06:00-13:30"
+      ],
+      "identifiant": 171,
+      "insee": "69383",
+      "jourtenue": "Jeudi",
+      "lat": 45.756581,
+      "lon": 4.853586,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du Ch\u00e2teau",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 172,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 172,
+      "insee": "69383",
+      "jourtenue": "Samedi",
+      "lat": 45.750214,
+      "lon": 4.888021,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du Ch\u00e2teau",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 173,
+      "horaires": [
+        "We 06:00-13:30"
+      ],
+      "identifiant": 173,
+      "insee": "69383",
+      "jourtenue": "Mercredi",
+      "lat": 45.750214,
+      "lon": 4.888021,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Quai Victor-Augagneur",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 174,
+      "horaires": [
+        "Tu 06:00-12:30"
+      ],
+      "identifiant": 174,
+      "insee": "69383",
+      "jourtenue": "Mardi",
+      "lat": 45.7606559,
+      "lon": 4.8411083,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Quai Victor-Augagneur",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 176,
+      "horaires": [
+        "Su 06:00-13:30"
+      ],
+      "identifiant": 176,
+      "insee": "69383",
+      "jourtenue": "Dimanche",
+      "lat": 45.7606559,
+      "lon": 4.8411083,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Quai Victor-Augagneur",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 177,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 177,
+      "insee": "69383",
+      "jourtenue": "Samedi",
+      "lat": 45.7606559,
+      "lon": 4.8411083,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Quai Victor-Augagneur",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 178,
+      "horaires": [
+        "Fr 06:00-13:30"
+      ],
+      "identifiant": 178,
+      "insee": "69383",
+      "jourtenue": "Vendredi",
+      "lat": 45.7606559,
+      "lon": 4.8411083,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Quai Victor-Augagneur",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 179,
+      "horaires": [
+        "We 06:00-12:30"
+      ],
+      "identifiant": 179,
+      "insee": "69383",
+      "jourtenue": "Mercredi",
+      "lat": 45.7606559,
+      "lon": 4.8411083,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue Gabillot",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 181,
+      "horaires": [
+        "We 06:00-13:00"
+      ],
+      "identifiant": 181,
+      "insee": "69383",
+      "jourtenue": "Mercredi",
+      "lat": 45.757668,
+      "lon": 4.864831,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue Gabillot",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 182,
+      "horaires": [
+        "Fr 06:00-13:00"
+      ],
+      "identifiant": 182,
+      "insee": "69383",
+      "jourtenue": "Vendredi",
+      "lat": 45.757668,
+      "lon": 4.864831,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue Gabillot",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 183,
+      "horaires": [
+        "Su 06:00-13:30"
+      ],
+      "identifiant": 183,
+      "insee": "69383",
+      "jourtenue": "Dimanche",
+      "lat": 45.757668,
+      "lon": 4.864831,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Petite Place de la Croix-Rousse",
+      "commune": "Lyon 4e Arrondissement",
+      "gid": 184,
+      "horaires": [
+        "Tu 06:00-13:00"
+      ],
+      "identifiant": 184,
+      "insee": "69384",
+      "jourtenue": "Mardi",
+      "lat": 45.7758643,
+      "lon": 4.8325531,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Petite Place de la Croix-Rousse",
+      "commune": "Lyon 4e Arrondissement",
+      "gid": 185,
+      "horaires": [
+        "We 06:00-13:00"
+      ],
+      "identifiant": 185,
+      "insee": "69384",
+      "jourtenue": "Mercredi",
+      "lat": 45.7758643,
+      "lon": 4.8325531,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Petite Place de la Croix-Rousse",
+      "commune": "Lyon 4e Arrondissement",
+      "gid": 186,
+      "horaires": [
+        "Su 06:00-13:30"
+      ],
+      "identifiant": 186,
+      "insee": "69384",
+      "jourtenue": "Dimanche",
+      "lat": 45.7758643,
+      "lon": 4.8325531,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Petite Place de la Croix-Rousse",
+      "commune": "Lyon 4e Arrondissement",
+      "gid": 187,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 187,
+      "insee": "69384",
+      "jourtenue": "Samedi",
+      "lat": 45.7758643,
+      "lon": 4.8325531,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Petite Place de la Croix-Rousse",
+      "commune": "Lyon 4e Arrondissement",
+      "gid": 188,
+      "horaires": [
+        "Fr 06:00-13:30"
+      ],
+      "identifiant": 188,
+      "insee": "69384",
+      "jourtenue": "Vendredi",
+      "lat": 45.7758643,
+      "lon": 4.8325531,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Petite Place de la Croix-Rousse",
+      "commune": "Lyon 4e Arrondissement",
+      "gid": 189,
+      "horaires": [
+        "Th 06:00-13:00"
+      ],
+      "identifiant": 189,
+      "insee": "69384",
+      "jourtenue": "Jeudi",
+      "lat": 45.7758643,
+      "lon": 4.8325531,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Camille-Flammarion",
+      "commune": "Lyon 4e Arrondissement",
+      "gid": 190,
+      "horaires": [
+        "Fr 06:00-13:00"
+      ],
+      "identifiant": 190,
+      "insee": "69384",
+      "jourtenue": "Vendredi",
+      "lat": 45.7791788,
+      "lon": 4.819452,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Camille-Flammarion",
+      "commune": "Lyon 4e Arrondissement",
+      "gid": 191,
+      "horaires": [
+        "We 06:00-13:00"
+      ],
+      "identifiant": 191,
+      "insee": "69384",
+      "jourtenue": "Mercredi",
+      "lat": 45.7791788,
+      "lon": 4.819452,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du Commandant Arnaud",
+      "commune": "Lyon 4e Arrondissement",
+      "gid": 192,
+      "horaires": [
+        "Th 06:00-12:30"
+      ],
+      "identifiant": 192,
+      "insee": "69384",
+      "jourtenue": "Jeudi",
+      "lat": 45.7795611,
+      "lon": 4.8353903,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Boulevard des Castors",
+      "commune": "Lyon 5e Arrondissement",
+      "gid": 193,
+      "horaires": [
+        "Su 06:00-13:00"
+      ],
+      "identifiant": 193,
+      "insee": "69385",
+      "jourtenue": "Dimanche",
+      "lat": 45.7508131,
+      "lon": 4.8090787,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place A. Schweitzer",
+      "commune": "Lyon 5e Arrondissement",
+      "gid": 194,
+      "horaires": [
+        "We 06:00-13:30"
+      ],
+      "identifiant": 194,
+      "insee": "69385",
+      "jourtenue": "Mercredi",
+      "lat": 45.756299,
+      "lon": 4.786886,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place A. Schweitzer",
+      "commune": "Lyon 5e Arrondissement",
+      "gid": 195,
+      "horaires": [
+        "Fr 06:00-13:30"
+      ],
+      "identifiant": 195,
+      "insee": "69385",
+      "jourtenue": "Vendredi",
+      "lat": 45.756299,
+      "lon": 4.786886,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place A. Schweitzer",
+      "commune": "Lyon 5e Arrondissement",
+      "gid": 196,
+      "horaires": [
+        "Su 06:00-13:30"
+      ],
+      "identifiant": 196,
+      "insee": "69385",
+      "jourtenue": "Dimanche",
+      "lat": 45.756299,
+      "lon": 4.786886,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place B\u00e9n\u00e9dict -Teissier",
+      "commune": "Lyon 5e Arrondissement",
+      "gid": 197,
+      "horaires": [
+        "Tu 06:00-13:00"
+      ],
+      "identifiant": 197,
+      "insee": "69385",
+      "jourtenue": "Mardi",
+      "lat": 45.75602,
+      "lon": 4.79762,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place B\u00e9n\u00e9dict -Teissier",
+      "commune": "Lyon 5e Arrondissement",
+      "gid": 198,
+      "horaires": [
+        "Fr 06:00-13:00"
+      ],
+      "identifiant": 198,
+      "insee": "69385",
+      "jourtenue": "Vendredi",
+      "lat": 45.75602,
+      "lon": 4.79762,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Edouard Commette",
+      "commune": "Lyon 5e Arrondissement",
+      "gid": 199,
+      "horaires": [
+        "Th 06:00-12:30"
+      ],
+      "identifiant": 199,
+      "insee": "69385",
+      "jourtenue": "Jeudi",
+      "lat": 45.7602876,
+      "lon": 4.8265605,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue C\u00e9sar Geoffray",
+      "commune": "Lyon 5e Arrondissement",
+      "gid": 200,
+      "horaires": [
+        "We 06:00-12:30"
+      ],
+      "identifiant": 200,
+      "insee": "69385",
+      "jourtenue": "Mercredi",
+      "lat": 45.7494211,
+      "lon": 4.7840202,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue des Anges",
+      "commune": "Lyon 5e Arrondissement",
+      "gid": 201,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 201,
+      "insee": "69385",
+      "jourtenue": "Samedi",
+      "lat": 45.7566063,
+      "lon": 4.8131997,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue des Anges",
+      "commune": "Lyon 5e Arrondissement",
+      "gid": 202,
+      "horaires": [
+        "We 06:00-13:00"
+      ],
+      "identifiant": 202,
+      "insee": "69385",
+      "jourtenue": "Mercredi",
+      "lat": 45.7566063,
+      "lon": 4.8131997,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Elmaleh",
+      "commune": "Lyon 6e Arrondissement",
+      "gid": 203,
+      "horaires": [
+        "We 06:00-13:30"
+      ],
+      "identifiant": 203,
+      "insee": "69386",
+      "jourtenue": "Mercredi",
+      "lat": 45.766884,
+      "lon": 4.8530411,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Elmaleh",
+      "commune": "Lyon 6e Arrondissement",
+      "gid": 204,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 204,
+      "insee": "69386",
+      "jourtenue": "Samedi",
+      "lat": 45.766884,
+      "lon": 4.8530411,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Zo\u00e9 Roche",
+      "commune": "Lyon 6e Arrondissement",
+      "gid": 205,
+      "horaires": [
+        "Fr 06:00-13:30"
+      ],
+      "identifiant": 205,
+      "insee": "69386",
+      "jourtenue": "Vendredi",
+      "lat": 45.772162,
+      "lon": 4.847927,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue Bellecombe",
+      "commune": "Lyon 6e Arrondissement",
+      "gid": 206,
+      "horaires": [
+        "Tu 06:00-13:30"
+      ],
+      "identifiant": 206,
+      "insee": "69386",
+      "jourtenue": "Mardi",
+      "lat": 45.7643416,
+      "lon": 4.863703,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue Bellecombe",
+      "commune": "Lyon 6e Arrondissement",
+      "gid": 207,
+      "horaires": [
+        "Th 06:00-13:30"
+      ],
+      "identifiant": 207,
+      "insee": "69386",
+      "jourtenue": "Jeudi",
+      "lat": 45.7643416,
+      "lon": 4.863703,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Avenue Jean-Jaur\u00e8s",
+      "commune": "Lyon 7e Arrondissement",
+      "gid": 208,
+      "horaires": [
+        "Tu 06:00-12:30"
+      ],
+      "identifiant": 208,
+      "insee": "69387",
+      "jourtenue": "Mardi",
+      "lat": 45.729907,
+      "lon": 4.832859,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Avenue Jean-Jaur\u00e8s",
+      "commune": "Lyon 7e Arrondissement",
+      "gid": 209,
+      "horaires": [
+        "Fr 06:00-13:30"
+      ],
+      "identifiant": 209,
+      "insee": "69387",
+      "jourtenue": "Vendredi",
+      "lat": 45.729907,
+      "lon": 4.832859,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Avenue Jean-Jaur\u00e8s",
+      "commune": "Lyon 7e Arrondissement",
+      "gid": 210,
+      "horaires": [
+        "Su 06:00-13:30"
+      ],
+      "identifiant": 210,
+      "insee": "69387",
+      "jourtenue": "Dimanche",
+      "lat": 45.729907,
+      "lon": 4.832859,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Jean-Mac\u00e9",
+      "commune": "Lyon 7e Arrondissement",
+      "gid": 211,
+      "horaires": [
+        "We 06:00-13:30"
+      ],
+      "identifiant": 211,
+      "insee": "69387",
+      "jourtenue": "Mercredi",
+      "lat": 45.745863,
+      "lon": 4.842147,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Jean-Mac\u00e9",
+      "commune": "Lyon 7e Arrondissement",
+      "gid": 212,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 212,
+      "insee": "69387",
+      "jourtenue": "Samedi",
+      "lat": 45.745863,
+      "lon": 4.842147,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Saint-Louis",
+      "commune": "Lyon 7e Arrondissement",
+      "gid": 213,
+      "horaires": [
+        "Tu 06:00-12:30"
+      ],
+      "identifiant": 213,
+      "insee": "69387",
+      "jourtenue": "Mardi",
+      "lat": 45.749226,
+      "lon": 4.848093,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Saint-Louis",
+      "commune": "Lyon 7e Arrondissement",
+      "gid": 214,
+      "horaires": [
+        "Fr 06:00-13:30"
+      ],
+      "identifiant": 214,
+      "insee": "69387",
+      "jourtenue": "Vendredi",
+      "lat": 45.749226,
+      "lon": 4.848093,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Saint-Louis",
+      "commune": "Lyon 7e Arrondissement",
+      "gid": 215,
+      "horaires": [
+        "Su 06:00-13:30"
+      ],
+      "identifiant": 215,
+      "insee": "69387",
+      "jourtenue": "Dimanche",
+      "lat": 45.749226,
+      "lon": 4.848093,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue Jean-Jaur\u00e8s",
+      "commune": "Lyon 7e Arrondissement",
+      "gid": 216,
+      "horaires": [
+        "Th 14:00-20:30"
+      ],
+      "identifiant": 216,
+      "insee": "69387",
+      "jourtenue": "Jeudi",
+      "lat": 45.737361,
+      "lon": 4.837808,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Boulevard Ambroise-Par\u00e9",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 217,
+      "horaires": [
+        "Su 06:00-13:00"
+      ],
+      "identifiant": 217,
+      "insee": "69388",
+      "jourtenue": "Dimanche",
+      "lat": 45.738195,
+      "lon": 4.884496,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Boulevard Ambroise-Par\u00e9",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 218,
+      "horaires": [
+        "We 06:00-13:00"
+      ],
+      "identifiant": 218,
+      "insee": "69388",
+      "jourtenue": "Mercredi",
+      "lat": 45.738195,
+      "lon": 4.884496,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Ambroise-Courtois",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 219,
+      "horaires": [
+        "Th 06:00-13:30"
+      ],
+      "identifiant": 219,
+      "insee": "69388",
+      "jourtenue": "Jeudi",
+      "lat": 45.7448133,
+      "lon": 4.870864,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Ambroise-Courtois",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 220,
+      "horaires": [
+        "We 14:00-20:00"
+      ],
+      "identifiant": 220,
+      "insee": "69388",
+      "jourtenue": "Mercredi",
+      "lat": 45.7448133,
+      "lon": 4.870864,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Ambroise-Courtois",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 221,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 221,
+      "insee": "69388",
+      "jourtenue": "Samedi",
+      "lat": 45.7448133,
+      "lon": 4.870864,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Ambroise-Courtois",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 222,
+      "horaires": [
+        "Tu 06:00-13:30"
+      ],
+      "identifiant": 222,
+      "insee": "69388",
+      "jourtenue": "Mardi",
+      "lat": 45.7448133,
+      "lon": 4.870864,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Belleville",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 223,
+      "horaires": [
+        "We 06:00-13:00"
+      ],
+      "identifiant": 223,
+      "insee": "69388",
+      "jourtenue": "Mercredi",
+      "lat": 45.734669,
+      "lon": 4.853616,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Belleville",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 224,
+      "horaires": [
+        "Su 06:00-13:00"
+      ],
+      "identifiant": 224,
+      "insee": "69388",
+      "jourtenue": "Dimanche",
+      "lat": 45.734669,
+      "lon": 4.853616,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Latarget",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 225,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 225,
+      "insee": "69388",
+      "jourtenue": "Samedi",
+      "lat": 45.729494,
+      "lon": 4.885106,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du 8 mai 1945",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 226,
+      "horaires": [
+        "Tu 06:00-13:00"
+      ],
+      "identifiant": 226,
+      "insee": "69388",
+      "jourtenue": "Mardi",
+      "lat": 45.7305451,
+      "lon": 4.8659701,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du 8 mai 1945",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 227,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 227,
+      "insee": "69388",
+      "jourtenue": "Samedi",
+      "lat": 45.7305451,
+      "lon": 4.8659701,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du 8 mai 1945",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 228,
+      "horaires": [
+        "Th 06:00-13:00"
+      ],
+      "identifiant": 228,
+      "insee": "69388",
+      "jourtenue": "Jeudi",
+      "lat": 45.7305451,
+      "lon": 4.8659701,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du G\u00e9n\u00e9ral Andr\u00e9",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 229,
+      "horaires": [
+        "We 06:00-13:00"
+      ],
+      "identifiant": 229,
+      "insee": "69388",
+      "jourtenue": "Mercredi",
+      "lat": 45.727223,
+      "lon": 4.877774,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place du G\u00e9n\u00e9ral Andr\u00e9",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 230,
+      "horaires": [
+        "Su 06:00-13:00"
+      ],
+      "identifiant": 230,
+      "insee": "69388",
+      "jourtenue": "Dimanche",
+      "lat": 45.727223,
+      "lon": 4.877774,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place du G\u00e9n\u00e9ral Andr\u00e9",
+      "commune": "Lyon 8e Arrondissement",
+      "gid": 231,
+      "horaires": [
+        "Fr 06:00-13:00"
+      ],
+      "identifiant": 231,
+      "insee": "69388",
+      "jourtenue": "Vendredi",
+      "lat": 45.727223,
+      "lon": 4.877774,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Avenue Andre\u00ef-Sakharov",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 232,
+      "horaires": [
+        "Sa 06:00-13:30"
+      ],
+      "identifiant": 232,
+      "insee": "69389",
+      "jourtenue": "Samedi",
+      "lat": 45.788125,
+      "lon": 4.799966,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Avenue B. Buyer",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 233,
+      "horaires": [
+        "Sa 06:00-13:00"
+      ],
+      "identifiant": 233,
+      "insee": "69389",
+      "jourtenue": "Samedi",
+      "lat": 45.764026,
+      "lon": 4.799075,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Avenue de la Sauvegarde",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 234,
+      "horaires": [
+        "Th 06:00-13:00"
+      ],
+      "identifiant": 234,
+      "insee": "69389",
+      "jourtenue": "Jeudi",
+      "lat": 45.787997,
+      "lon": 4.790491,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Avenue de la Sauvegarde",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 235,
+      "horaires": [
+        "Su 06:00-13:00"
+      ],
+      "identifiant": 235,
+      "insee": "69389",
+      "jourtenue": "Dimanche",
+      "lat": 45.787997,
+      "lon": 4.790491,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Ilot Loucheur",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 236,
+      "horaires": [
+        "Fr 14:00-20:00"
+      ],
+      "identifiant": 236,
+      "insee": "69389",
+      "jourtenue": "Vendredi",
+      "lat": 45.768217,
+      "lon": 4.805298,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Abb\u00e9-Pierre",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 237,
+      "horaires": [
+        "Tu 14:00-20:00"
+      ],
+      "identifiant": 237,
+      "insee": "69389",
+      "jourtenue": "Mardi",
+      "lat": 45.786652,
+      "lon": 4.79539,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Henri Barbusse",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 238,
+      "horaires": [
+        "Su 06:00-13:00"
+      ],
+      "identifiant": 238,
+      "insee": "69389",
+      "jourtenue": "Dimanche",
+      "lat": 45.798249,
+      "lon": 4.830094,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Sch\u00f6nberg",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 239,
+      "horaires": [
+        "Fr 06:00-13:00"
+      ],
+      "identifiant": 239,
+      "insee": "69389",
+      "jourtenue": "Vendredi",
+      "lat": 45.79972,
+      "lon": 4.826524,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Valmy",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 240,
+      "horaires": [
+        "Tu 06:00-13:00"
+      ],
+      "identifiant": 240,
+      "insee": "69389",
+      "jourtenue": "Mardi",
+      "lat": 45.774979,
+      "lon": 4.805692,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue Roger-Salengro",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 241,
+      "horaires": [
+        "Su 06:00-13:00"
+      ],
+      "identifiant": 241,
+      "insee": "69389",
+      "jourtenue": "Dimanche",
+      "lat": 45.778806,
+      "lon": 4.804952,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue Roger-Salengro",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 242,
+      "horaires": [
+        "Sa 06:00-13:00"
+      ],
+      "identifiant": 242,
+      "insee": "69389",
+      "jourtenue": "Samedi",
+      "lat": 45.778806,
+      "lon": 4.804952,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Rue Roger-Salengro",
+      "commune": "Lyon 9e Arrondissement",
+      "gid": 243,
+      "horaires": [
+        "We 06:00-13:00"
+      ],
+      "identifiant": 243,
+      "insee": "69389",
+      "jourtenue": "Mercredi",
+      "lat": 45.778806,
+      "lon": 4.804952,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Quai Victor-Augagneur",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 175,
+      "horaires": [
+        "Th 14:00-20:00"
+      ],
+      "identifiant": 175,
+      "insee": "69383",
+      "jourtenue": "Jeudi apr\u00e8s-midi",
+      "lat": 45.7606559,
+      "lon": 4.8411083,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Quai Victor-Augagneur",
+      "commune": "Lyon 3e Arrondissement",
+      "gid": 180,
+      "horaires": [
+        "Th 06:00-12:30"
+      ],
+      "identifiant": 180,
+      "insee": "69383",
+      "jourtenue": "Jeudi matin",
+      "lat": 45.7606559,
+      "lon": 4.8411083,
+      "type": "alimentaire"
+    },
+    {
+      "adresse": "Place Grancl\u00e9ment ",
+      "commune": "Villeurbanne",
+      "gid": 105,
+      "horaires": [
+        "Su 07:30-12:30"
+      ],
+      "identifiant": 105,
+      "insee": "69266",
+      "jourtenue": "Dimanche",
+      "lat": 45.759666,
+      "lon": 4.890652,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Grancl\u00e9ment ",
+      "commune": "Villeurbanne",
+      "gid": 106,
+      "horaires": [
+        "Th 07:30-12:30"
+      ],
+      "identifiant": 106,
+      "insee": "69266",
+      "jourtenue": "Jeudi",
+      "lat": 45.759666,
+      "lon": 4.890652,
+      "type": "mixte"
+    },
+    {
+      "adresse": "Place Grancl\u00e9ment ",
+      "commune": "Villeurbanne",
+      "gid": 107,
+      "horaires": [
+        "Tu 07:30-12:30"
+      ],
+      "identifiant": 107,
+      "insee": "69266",
+      "jourtenue": "Mardi",
+      "lat": 45.759666,
+      "lon": 4.890652,
+      "type": "mixte"
+    }
+  ]
+}

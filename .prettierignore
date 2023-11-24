@@ -1,0 +1,7 @@
+node_modules
+__mocks__
+.expo
+.expo-shared
+.vscode
+dev
+.idea
