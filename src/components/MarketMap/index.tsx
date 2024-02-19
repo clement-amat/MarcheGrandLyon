@@ -10,6 +10,7 @@ import { Market } from '../../models/data/market.model';
 import MarketDetails from '../shared/MarketDetails';
 import { getMarkets } from '../../services/market.service';
 import { MarketMapFilter } from '../MarketMapFilter';
+import { DefaultTheme } from '../../styles/default-theme';
 
 export default function MarketMap() {
   const SELECTED_MARKER = require('../../../assets/marker_selected.png')
@@ -110,7 +111,7 @@ export default function MarketMap() {
       <MarketMapFilter
         onSearchTermChanged={onSearchTermChanged} searchTerm={searchTerm} onClearSearchTerm={onClearSearchTermPressed}
         onTodayQuickFilterValueChanged={onTodayQuickFilterValueChanged} todayFilterActive={todayFilterActive}/>
-      {initialRegion && (<MapView style={style.map} initialRegion={initialRegion} onPress={onMapViewPressed}>
+      {initialRegion && (<MapView style={style.map} initialRegion={initialRegion} onPress={onMapViewPressed} clusterColor={DefaultTheme.primary}>
         {marketList.map((market: Market) => (
           <Marker
             key={market.identifiant}

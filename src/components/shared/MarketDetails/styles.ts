@@ -14,6 +14,7 @@ export const style = StyleSheet.create({
     shadowRadius: 28, // For iOS
     borderWidth: 1, // For iOS inset shadow
     borderColor: 'rgba(255, 255, 255, 0.05)', // For iOS inset shadow
+    fontFamily: 'NotoSans_400Regular'
   },
   header: {
     marginBottom: 8,

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 
 import Ionicons from '@expo/vector-icons/Ionicons';
@@ -9,34 +8,45 @@ import MarketMap from '../MarketMap';
 import MarketList from '../MarketList';
 import Favorites from '../Favorites';
 import { type TabItem } from '../../models/ui/tab-item.model';
+import { AnimatedTabBarNavigator } from 'react-native-animated-nav-tab-bar';
+import { DefaultTheme } from '../../styles/default-theme';
+import { NotoSans_400Regular, useFonts } from '@expo-google-fonts/noto-sans';
 
-const Tab = createBottomTabNavigator();
+const Tab = AnimatedTabBarNavigator();
 
 const tabItems: TabItem[] = [
   {
-    name: 'Favorites',
+    name: 'Mes Favoris',
     component: Favorites,
     iconName: 'md-heart-outline',
   },
   {
-    name: 'MarketMap',
+    name: 'Plan',
     component: MarketMap,
     iconName: 'md-map-outline',
   },
   {
-    name: 'MarketList',
+    name: 'Liste',
     component: MarketList,
     iconName: 'md-list-outline',
   },
 ];
 
 export default function Layout() {
+  let [fontsLoaded] = useFonts({
+    NotoSans_400Regular,
+  });
+
+  if (!fontsLoaded) {
+    return null;
+  }
+
   return (
     <NavigationContainer>
       <Tab.Navigator
-        initialRouteName="MarketMap"
+        initialRouteName="Plan"
         screenOptions={{headerShown: false}}
-      >
+        appearance={{floating: false, activeTabBackgrounds: DefaultTheme.secondary, activeColors: DefaultTheme.primary}}>
         {tabItems.map((tabItem: TabItem) => (
           <Tab.Screen
             key={tabItem.name}
@@ -44,6 +54,7 @@ export default function Layout() {
             // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
             component={tabItem.component}
             options={{
+              tabBarActiveTintColor: DefaultTheme.primary,
               tabBarIcon: ({ color, size }) => (
                 <Ionicons name={tabItem.iconName} size={size} color={color} />
               ),
