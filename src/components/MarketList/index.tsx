@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-import { Text, View } from 'react-native';
-
+import { FlatList, View } from 'react-native';
+import MarketDetails from '../shared/MarketDetails';
+import { getMarkets } from '../../services/market.service';
+import { Market } from '../../models/data/market.model';
 export default function MarketList() {
+  const [marketList, setMarketList] = useState<Market[]>([]);
+
+  const updatedMarketList = (): void => {
+    setMarketList(getMarkets());
+  };
+  useEffect(() => {
+    updatedMarketList();
+  }, []);
+
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>MarketList!</Text>
+    <View>
+      <FlatList
+        data={marketList}
+        renderItem={({ item }) => <MarketDetails market={item} />}
+        keyExtractor={(item) => item.identifiant}
+      />
     </View>
   );
 }

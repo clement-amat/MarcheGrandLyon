@@ -8,11 +8,11 @@ import MarketMap from '../MarketMap';
 import MarketList from '../MarketList';
 import Favorites from '../Favorites';
 import { type TabItem } from '../../models/ui/tab-item.model';
-import { AnimatedTabBarNavigator } from 'react-native-animated-nav-tab-bar';
 import { DefaultTheme } from '../../styles/default-theme';
 import { NotoSans_400Regular, useFonts } from '@expo-google-fonts/noto-sans';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-const Tab = AnimatedTabBarNavigator();
+const Tab = createBottomTabNavigator();
 
 const tabItems: TabItem[] = [
   {
@@ -45,8 +45,7 @@ export default function Layout() {
     <NavigationContainer>
       <Tab.Navigator
         initialRouteName="Plan"
-        screenOptions={{headerShown: false}}
-        appearance={{floating: false, activeTabBackgrounds: DefaultTheme.secondary, activeColors: DefaultTheme.primary}}>
+        screenOptions={{headerShown: false}}>
         {tabItems.map((tabItem: TabItem) => (
           <Tab.Screen
             key={tabItem.name}

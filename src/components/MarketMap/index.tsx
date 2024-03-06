@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 
 import { Animated, Keyboard, View } from 'react-native';
-import MapView from "react-native-map-clustering";
+import MapView from 'react-native-map-clustering';
 
-import { Marker } from 'react-native-maps';
+import { Marker, MarkerPressEvent } from 'react-native-maps';
 
 import { style } from './styles';
 import { Market } from '../../models/data/market.model';
@@ -13,8 +13,8 @@ import { MarketMapFilter } from '../MarketMapFilter';
 import { DefaultTheme } from '../../styles/default-theme';
 
 export default function MarketMap() {
-  const SELECTED_MARKER = require('../../../assets/marker_selected.png')
-  const DEFAULT_MARKER = require('../../../assets/marker.png')
+  const SELECTED_MARKER = require('../../../assets/marker_selected.png');
+  const DEFAULT_MARKER = require('../../../assets/marker.png');
 
   const [marketList, setMarketList] = useState<Market[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -22,63 +22,53 @@ export default function MarketMap() {
   const [selectedMarket, setSelectedMarket] = useState<Market>(null);
   const [marketDetailsAnimation] = useState(new Animated.Value(0));
   const [todayFilterActive, setTodayFilterActive] = useState(false);
-  const onMarkerPressed = (event, market: Market): void => {
-    event.preventDefault();
-    setSelectedMarket(market);
-    showMarketDetails();
-  }
 
-  const onClearSearchTermPressed = (): void => {
-    setSearchTerm(null);
-    Keyboard.dismiss();
-  }
-
-  const onTodayQuickFilterValueChanged = (): void => {
-    setTodayFilterActive(!todayFilterActive);
-  }
-
-  const onMapViewPressed = (): void => {
-    setSelectedMarket(null);
-  }
-
-  const onSearchTermChanged = (searchTermInput: string): void => {
-    if (searchTermInput !== searchTerm) {
-      setSearchTerm(searchTermInput)
-    }
-  }
-
-  const updatedMarketList = (): void => {
+  const updatedMarketList = useCallback((): void => {
     setMarketList(getMarkets(searchTerm, todayFilterActive));
-  }
+  }, [searchTerm, todayFilterActive]);
 
   const showMarketDetails = () => {
     Animated.parallel([
       Animated.timing(marketDetailsAnimation, {
         toValue: 1,
-        duration: 300,
-        useNativeDriver: false,
-      }),
-      Animated.timing(marketDetailsAnimation, {
-        toValue: 1,
-        duration: 300,
-        useNativeDriver: false,
+        duration: 500,
+        useNativeDriver: true,
       }),
     ]).start();
   };
 
-  const hideMarketDetails = () => {
+  const hideMarketDetails = useCallback(() => {
     Animated.parallel([
       Animated.timing(marketDetailsAnimation, {
         toValue: 0,
-        duration: 300,
-        useNativeDriver: false,
-      }),
-      Animated.timing(marketDetailsAnimation, {
-        toValue: 0,
-        duration: 300,
-        useNativeDriver: false,
+        duration: 500,
+        useNativeDriver: true,
       }),
     ]).start(() => setSelectedMarket(null));
+  }, [marketDetailsAnimation]);
+  const onMarkerPressed = (event: MarkerPressEvent, market: Market): void => {
+    event.preventDefault();
+    setSelectedMarket(market);
+    showMarketDetails();
+  };
+
+  const onClearSearchTermPressed = (): void => {
+    setSearchTerm(null);
+    Keyboard.dismiss();
+  };
+
+  const onTodayQuickFilterValueChanged = (): void => {
+    setTodayFilterActive(!todayFilterActive);
+  };
+
+  const onMapViewPressed = (): void => {
+    setSelectedMarket(null);
+  };
+
+  const onSearchTermChanged = (searchTermInput: string): void => {
+    if (searchTermInput !== searchTerm) {
+      setSearchTerm(searchTermInput);
+    }
   };
 
   useEffect(() => {
@@ -95,11 +85,11 @@ export default function MarketMap() {
     if (!selectedMarket) {
       hideMarketDetails();
     }
-  }, [selectedMarket]);
+  }, [hideMarketDetails, selectedMarket]);
 
   useEffect(() => {
     updatedMarketList();
-  }, [searchTerm, todayFilterActive]);
+  }, [updatedMarketList, searchTerm, todayFilterActive]);
 
   const interpolatedTranslateY = marketDetailsAnimation.interpolate({
     inputRange: [0, 1],
@@ -109,27 +99,47 @@ export default function MarketMap() {
   return (
     <View style={style.container}>
       <MarketMapFilter
-        onSearchTermChanged={onSearchTermChanged} searchTerm={searchTerm} onClearSearchTerm={onClearSearchTermPressed}
-        onTodayQuickFilterValueChanged={onTodayQuickFilterValueChanged} todayFilterActive={todayFilterActive}/>
-      {initialRegion && (<MapView style={style.map} initialRegion={initialRegion} onPress={onMapViewPressed} clusterColor={DefaultTheme.primary}>
-        {marketList.map((market: Market) => (
-          <Marker
-            key={market.identifiant}
-            tracksViewChanges={false}
-            coordinate={{latitude: market.lat, longitude: market.lon}}
-            image={market.identifiant === selectedMarket?.identifiant ? SELECTED_MARKER : DEFAULT_MARKER}
-            onPress={(event) => onMarkerPressed(event, market)}
-          >
-          </Marker>
-        ))}
-      </MapView>)}
-      {selectedMarket && (<Animated.View style={{
-        ...style.marketDetail,
-        opacity: marketDetailsAnimation,
-        transform: [{translateY: interpolatedTranslateY}],
-      }}>
-        <MarketDetails market={selectedMarket}/>
-      </Animated.View>)}
+        onSearchTermChanged={onSearchTermChanged}
+        searchTerm={searchTerm}
+        onClearSearchTerm={onClearSearchTermPressed}
+        onTodayQuickFilterValueChanged={onTodayQuickFilterValueChanged}
+        todayFilterActive={todayFilterActive}
+      />
+      {initialRegion && (
+        <MapView
+          style={style.map}
+          initialRegion={initialRegion}
+          onPress={onMapViewPressed}
+          clusterColor={DefaultTheme.primary}
+        >
+          {marketList.map((market: Market) => (
+            <Marker
+              key={market.identifiant}
+              tracksViewChanges={false}
+              coordinate={{ latitude: market.lat, longitude: market.lon }}
+              image={
+                market.identifiant === selectedMarket?.identifiant
+                  ? SELECTED_MARKER
+                  : DEFAULT_MARKER
+              }
+              onPress={(event: MarkerPressEvent) =>
+                onMarkerPressed(event, market)
+              }
+            ></Marker>
+          ))}
+        </MapView>
+      )}
+      {selectedMarket && (
+        <Animated.View
+          style={{
+            ...style.marketDetail,
+            opacity: marketDetailsAnimation,
+            transform: [{ translateY: interpolatedTranslateY }],
+          }}
+        >
+          <MarketDetails market={selectedMarket} />
+        </Animated.View>
+      )}
     </View>
   );
 }
