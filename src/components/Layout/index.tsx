@@ -45,7 +45,8 @@ export default function Layout() {
     <NavigationContainer>
       <Tab.Navigator
         initialRouteName="Plan"
-        screenOptions={{headerShown: false}}>
+        screenOptions={{ headerShown: false }}
+      >
         {tabItems.map((tabItem: TabItem) => (
           <Tab.Screen
             key={tabItem.name}
@@ -57,7 +58,7 @@ export default function Layout() {
               tabBarIcon: ({ color, size }) => (
                 <Ionicons name={tabItem.iconName} size={size} color={color} />
               ),
-              tabBarShowLabel: false
+              tabBarShowLabel: false,
             }}
           />
         ))}

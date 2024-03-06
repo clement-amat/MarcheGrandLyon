@@ -11,6 +11,7 @@ import MarketDetails from '../shared/MarketDetails';
 import { getMarkets } from '../../services/market.service';
 import { MarketMapFilter } from '../MarketMapFilter';
 import { DefaultTheme } from '../../styles/default-theme';
+import { CallToActionButton } from '../shared/CallToActionButton';
 
 export default function MarketMap() {
   const SELECTED_MARKER = require('../../../assets/marker_selected.png');
@@ -70,6 +71,8 @@ export default function MarketMap() {
       setSearchTerm(searchTermInput);
     }
   };
+
+  const onCTAPressed = (): void => {};
 
   useEffect(() => {
     setMarketList(getMarkets());
@@ -137,7 +140,9 @@ export default function MarketMap() {
             transform: [{ translateY: interpolatedTranslateY }],
           }}
         >
-          <MarketDetails market={selectedMarket} />
+          <MarketDetails market={selectedMarket}>
+            <CallToActionButton title="M'y rendre" onPress={onCTAPressed} />
+          </MarketDetails>
         </Animated.View>
       )}
     </View>

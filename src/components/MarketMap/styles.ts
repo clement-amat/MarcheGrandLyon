@@ -8,12 +8,12 @@ export const style = StyleSheet.create({
   map: {
     width: '100%',
     height: '100%',
-    zIndex: -1
+    zIndex: -1,
   },
   marketDetail: {
     position: 'absolute',
     bottom: 16,
     left: 10,
     right: 10,
-  }
-})
+  },
+});
