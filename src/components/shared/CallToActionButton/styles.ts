@@ -10,7 +10,7 @@ export const style = StyleSheet.create({
     borderRadius: 100,
   },
   pressedCta: {
-    backgroundColor: DefaultTheme.secondary,
+    backgroundColor: DefaultTheme.accent,
   },
   ctaText: {
     color: 'white',

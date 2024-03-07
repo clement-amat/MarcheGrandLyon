@@ -16,4 +16,7 @@ export const style = StyleSheet.create({
     left: 10,
     right: 10,
   },
+  cta: {
+    marginTop: 8,
+  },
 });

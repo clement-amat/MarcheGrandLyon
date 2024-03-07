@@ -4,14 +4,14 @@ import { Animated, Keyboard, View } from 'react-native';
 import MapView from 'react-native-map-clustering';
 
 import { Marker, MarkerPressEvent } from 'react-native-maps';
-
 import { style } from './styles';
-import { Market } from '../../models/data/market.model';
 import MarketDetails from '../shared/MarketDetails';
 import { getMarkets } from '../../services/market.service';
 import { MarketMapFilter } from '../MarketMapFilter';
 import { DefaultTheme } from '../../styles/default-theme';
 import { CallToActionButton } from '../shared/CallToActionButton';
+import { openMarketInMapApplication } from '../../utils/external-apps.utils';
+import { Market } from '../../models/data/market.model';
 
 export default function MarketMap() {
   const SELECTED_MARKER = require('../../../assets/marker_selected.png');
@@ -72,7 +72,9 @@ export default function MarketMap() {
     }
   };
 
-  const onCTAPressed = (): void => {};
+  const onCTAPressed = (): void => {
+    openMarketInMapApplication(selectedMarket);
+  };
 
   useEffect(() => {
     setMarketList(getMarkets());
@@ -117,11 +119,11 @@ export default function MarketMap() {
         >
           {marketList.map((market: Market) => (
             <Marker
-              key={market.identifiant}
+              key={market.address}
               tracksViewChanges={false}
               coordinate={{ latitude: market.lat, longitude: market.lon }}
               image={
-                market.identifiant === selectedMarket?.identifiant
+                market.address === selectedMarket?.address
                   ? SELECTED_MARKER
                   : DEFAULT_MARKER
               }
@@ -141,7 +143,9 @@ export default function MarketMap() {
           }}
         >
           <MarketDetails market={selectedMarket}>
-            <CallToActionButton title="M'y rendre" onPress={onCTAPressed} />
+            <View style={style.cta}>
+              <CallToActionButton title="M'y rendre" onPress={onCTAPressed} />
+            </View>
           </MarketDetails>
         </Animated.View>
       )}

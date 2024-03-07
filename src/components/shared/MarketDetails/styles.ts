@@ -1,19 +1,11 @@
 import { StyleSheet } from 'react-native';
+import { DefaultTheme } from '../../../styles/default-theme';
 
 export const style = StyleSheet.create({
   container: {
     flex: 1,
-    paddingHorizontal: 16,
-    paddingVertical: 10,
-    borderRadius: 10,
-    backgroundColor: 'white',
-    elevation: 8, // For Android
-    shadowColor: 'rgba(0, 0, 0, 0.2)', // For iOS
-    shadowOffset: { width: 0, height: 12 }, // For iOS
-    shadowOpacity: 0.28, // For iOS
-    shadowRadius: 28, // For iOS
-    borderWidth: 1, // For iOS inset shadow
-    borderColor: 'rgba(255, 255, 255, 0.05)', // For iOS inset shadow
+    paddingHorizontal: 20,
+    paddingVertical: 16,
     fontFamily: 'NotoSans_400Regular',
   },
   header: {
@@ -25,5 +17,13 @@ export const style = StyleSheet.create({
   },
   headerCity: {
     fontSize: 14,
+  },
+  schedule: {
+    borderColor: DefaultTheme.secondary,
+    borderWidth: 1,
+    paddingHorizontal: 4,
+    paddingVertical: 8,
+    borderRadius: 8,
+    marginRight: 8,
   },
 });

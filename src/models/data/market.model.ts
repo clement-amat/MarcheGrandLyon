@@ -1,9 +1,18 @@
 export interface Market {
-  adresse: string;
+  address: string;
   lat: number;
   lon: number;
-  commune?: string;
-  type?: string;
-  identifiant?: string;
-  horaires?: string[]
+  city?: string;
+  schedules?: MarketSchedule[];
+}
+
+export interface MarketSchedule {
+  type?: MarketType;
+  weekDay?: string;
+  time: string;
+}
+
+export enum MarketType {
+  FOOD = 'FOOD',
+  MIXED = 'MIXED',
 }
